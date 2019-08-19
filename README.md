@@ -40,7 +40,7 @@ git clone https://github.com/dattademo/protractor-basic-framework.git
 	  Available test suites:
  	    Contribution Page test suite: protractor conf.js --suite=contribution
 	    Landing Pages test suite: protractor conf.js  --suite=landingPages
-	  	Login test suite: protractor conf.js --suite=login
+ 	    Login test suite: protractor conf.js --suite=login
 	    Result test suite: protractor conf.js --suite=result
 
 	  Note: all tests will be ran if no --suite parameter is added (protractor conf.js)
