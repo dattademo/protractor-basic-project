@@ -7,6 +7,7 @@ export default class HomePage extends Base {
 		this.loginButton = this.byId("pt-login");
 		this.logOutButton = this.byId("pt-logout");
 		this.userPageButton  = this.byId("pt-userpage");
+		this.contribButton  = this.byId("pt-anoncontribs");
 		this.anonymousUserPageButton  = this.byId("pt-anonuserpage");
 		this.searchInput = this.byId("searchInput");
 		this.searchButton = this.byId("searchButton");

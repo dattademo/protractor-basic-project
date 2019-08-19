@@ -1,6 +1,6 @@
 import HomePage from "../../Pages/HomePage.js";
 import LoginPage from "../../Pages/LoginPage.js";
-const userData = require('../../Data/userData.js');
+const userData = require('../../Data/userData.json');
 
 var homePage = new HomePage();
 var loginPage = new LoginPage();

@@ -1,6 +1,6 @@
 import HomePage from "../../Pages/HomePage.js";
 import ResultPage from "../../Pages/ResultPage.js";
-const searchData = require('../../Data/searchData.js');
+const searchData = require('../../Data/searchData.json');
 
 var homePage = new HomePage();
 var resultPage = new ResultPage();

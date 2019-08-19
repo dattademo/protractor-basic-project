@@ -25,5 +25,14 @@ export default class Base {
 	byTagName(tagName) {
 		return this.el(by.tagName(tagName));
 	};
+
+	selectDropdownByValue(dropdownElement, elementValue) {
+		dropdownElement.element(by.css("option[value='" + elementValue + "']")).click();
+	};
+
+	getSelectedElement(dropdownElement) {
+		return dropdownElement.element(by.css('option:checked')).getText();
+	};
+
 }
 

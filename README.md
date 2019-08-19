@@ -26,27 +26,27 @@ git clone https://github.com/dattademo/protractor-basic-framework.git
 
 	2.f. Run: npm install
 
-	2.g. Run: protractor conf.js --chrome
+	2.g. Run: protractor conf.js
 
   ---------------------------
   	Select environment from console
-	  Test env run: protractor conf.js --chrome --params.env=test
-	  Prod env run: protractor conf.js --chrome --params.env=prod
+	  Test env run: protractor conf.js --params.env=test
+	  Prod env run: protractor conf.js --params.env=prod
 
 	  Note: default setting: "test"
   
   ---------------------------
   	Select Test Suite
 	  Available test suites:
-	    Landing Pages test suite: protractor conf.js --chrome --suite=landingPages
-	  	Login test suite: protractor conf.js --chrome --suite=login
-	    Result test suite: protractor conf.js --chrome --suite=result
+ 	    Contribution Page test suite: protractor conf.js --suite=contribution
+	    Landing Pages test suite: protractor conf.js  --suite=landingPages
+	  	Login test suite: protractor conf.js --suite=login
+	    Result test suite: protractor conf.js --suite=result
 
-	  Note: all tests will be ran if no --suite parameter is added (protractor conf.js --chrome)
+	  Note: all tests will be ran if no --suite parameter is added (protractor conf.js)
 
   ---------------------------
   	Browser
-	  Chrome: protractor conf.js --chrome
-	  Firefox: protractor conf.js --firefox
-	  Both (parallel execution): protractor conf.js
+	  Chrome: protractor conf.js --params.browser=chrome
+	  Firefox: protractor conf.js --params.browser=firefox
 

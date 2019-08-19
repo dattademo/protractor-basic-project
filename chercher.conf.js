@@ -9,7 +9,7 @@ const jasmineReporters = require('jasmine-reporters');
 const FailFast = require('protractor-fail-fast');
 const fs = require('fs-extra');
 const envFile = require('./Config/environment.js');
-//const browsers = require('./Config/browsers.js');
+const browsers = require('./Config/browsers.js');
 var baseUrl;
 
 exports.config = {
@@ -30,7 +30,6 @@ exports.config = {
     suites: {
         completeRegression: './Specs/*/*.spec.js',
         landingPages: './Specs/LandingPagesSpecs/*.spec.js',
-        contribPage: './Specs/ContributionSpecs/*.spec.js',
         result: './Specs/ResultSpecs/*.spec.js',
         login: './Specs/LoginSpecs/*.spec.js'
     },
