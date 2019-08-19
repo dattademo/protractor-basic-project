@@ -1,6 +1,7 @@
 import Base from './basePage.js';
 
 export default class ContribucionesPage extends Base {
+	// this page contains the elements and methods from the Contributions Page
 	constructor() {
 		super();
 		this.newbieContribCheckBox = this.byId("newbie");

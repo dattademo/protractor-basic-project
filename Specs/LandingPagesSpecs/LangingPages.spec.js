@@ -7,6 +7,10 @@ var homePage = new HomePage();
 var landingPage = new LandingPage();
 
 describe('Landing Page Tests', () => {
+	// This tests is using data provider
+	// This let us run the same tests with different information on each iteration
+	// Test goes down to the portal elements a click on each of the main elements
+	// Once the landing page is loaded: main elements a verified on screen
 	using(data, function (data, description) {
 		it(description + ' Test', () => {
 			homePage.clickOnPortalElement(data.linkText);

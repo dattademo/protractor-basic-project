@@ -47,6 +47,7 @@ git clone https://github.com/dattademo/protractor-basic-framework.git
 
   ---------------------------
   	Browser
-	  Chrome: protractor conf.js --params.browser=chrome
-	  Firefox: protractor conf.js --params.browser=firefox
+	  Chrome: protractor conf.js --browser=chrome
+	  Firefox: protractor conf.js --browser=firefox
 
+	  Default: chrome

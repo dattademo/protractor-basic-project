@@ -6,6 +6,8 @@ var homePage = new HomePage();
 var loginPage = new LoginPage();
 
 describe('Login Page tests', () => {
+	
+	// This tests verifies that the user can login as expected
 	it('Successful Login', () => {
 		homePage.loginButton.click();
 		loginPage.userInput.sendKeys(userData.username);

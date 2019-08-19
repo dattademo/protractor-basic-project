@@ -8,9 +8,11 @@ var loginPage = new LoginPage();
 var contribPage = new ContribPage();
 
 describe('Contributions Page tests', () => {
-
+	
+	// This test is using dropdown combo element
+	// The combo is set and the query is executed
+	// The test verifies that all titles on the response contains the filter selected on the dropdown
 	it('Verify Namespace filter', () => {
-
 		homePage.contribButton.click();
 		contribPage.newbieContribCheckBox.click();
 		contribPage.selectDropdownByValue(contribPage.nameSpaceSelect, contribData.value);

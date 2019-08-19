@@ -1,6 +1,7 @@
 import Base from './BasePage.js';
 
 export default class LandingPage extends Base {
+	// this page contains the elements and methods from the Landing Page
 	constructor() {
 		super();
 		this.mainLogo = this.byId("p-logo");

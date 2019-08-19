@@ -6,6 +6,10 @@ var homePage = new HomePage();
 var resultPage = new ResultPage();
 
 describe('Result Page Test', () => {
+
+	// This test search for an specific expected result
+	// The data is stored on data-> searchData.json
+	// Once the Result page is loaded: the script verifies the most important elements
 	it('Search Functionality', () => {
 		homePage.searchInput.sendKeys(searchData.textToSearch);
 		homePage.searchButton.click();

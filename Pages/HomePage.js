@@ -2,6 +2,7 @@ import Base from './BasePage.js';
 import { browser } from 'protractor';
 
 export default class HomePage extends Base {
+	// this page contains the elements and methods from the Home Page
 	constructor() {
 		super();
 		this.loginButton = this.byId("pt-login");
