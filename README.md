@@ -43,7 +43,7 @@ git clone https://github.com/dattademo/protractor-basic-framework.git
  	    Login test suite: protractor conf.js --suite=login
 	    Result test suite: protractor conf.js --suite=result
 
-	  Note: all tests will be ran if no --suite parameter is added (protractor conf.js)
+	  Note: no --suite parameter will run all test cases (protractor conf.js)
 
   ---------------------------
   	Browser

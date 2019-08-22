@@ -32,7 +32,7 @@
   },
   "scripts": {
     "webdriver-update": "webdriver-manager update",
-    "test": "protractor conf.js --chrome --suite=login"
+    "test": "protractor conf.js"
   },
   "devDependencies": {}
 }
