@@ -5,13 +5,8 @@ module.exports = {
 
     // overrides jasmine's print method to report dot syntax for custom reports
     jasmineNodeOpts: {
-        print: () => {},
-        isVerbose: true,
-        showColors: true,
-        silent: true,
-        includeStackTrace: false,
+       print: () => { },
+        isVerbose: false,
         defaultTimeoutInterval: 500000,
-        allScriptsTimeout: 30000,
-        getPageTimeout: 30000,
     },
 };
