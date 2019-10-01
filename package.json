@@ -21,7 +21,7 @@
   "repository": {
   "type": "git",
   "url": "git@github.com:dattademo/protractor-basic-project.git"
-}
+},
   "dependencies": {
     "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
