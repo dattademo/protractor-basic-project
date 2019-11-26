@@ -9,7 +9,7 @@ Developed with:
 
   1. Clone this project
 ```sh
-git clone https://github.com/dattademo/protractor-basic-framework.git
+git clone git@github.com:dattademo/protractor-basic-project.git
 ```
   ---------------------------
   	Running test from Console
